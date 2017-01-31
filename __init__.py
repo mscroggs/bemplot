@@ -1,2 +1,2 @@
-import .maxwell
 from .generic import *
+from . import maxwell
