@@ -80,9 +80,6 @@ def direct_evaluator(solution, k, incident=None):
             plot_me = incident(points) - (elec * solution) + (magn * incident_fun)
             return plot_me
     return evaluator
-    
-
-
 
 def efie_slice(solution, k, plot_type='squared', incident=None, *args, **kwargs):
     plot_slice(efie_evaluator(solution, k, incident), plot_type, *args, **kwargs)
