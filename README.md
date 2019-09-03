@@ -1,1 +1,3 @@
-This repository contains useful plotting function for use with [BEM++](http://www.bempp.org).
+This repository contains useful plotting function for use with [Bempp](http://www.bempp.org).
+
+Example scripts can be found in the `/examples` folder.
